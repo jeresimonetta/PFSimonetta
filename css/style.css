@@ -27,16 +27,16 @@
     grid-area: 3/1/4/4;
 }
 
-@media (max-width: 700px){
+@media (max-width: 400px){
     .grid-container{
         display: block;
-        background-color: blue;
+        background-color: rgb(116, 2, 2);
     }
     .grid-nav{
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto auto;
-    }
+        grid-template-rows: auto auto auto auto auto;}
+ 
 }    
 
 /* ----Header---- */
