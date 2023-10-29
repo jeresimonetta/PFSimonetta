@@ -4,12 +4,12 @@
 }
 @font-face {
     font-family: "bebas";
-    src: url("/fonts/BebasNeue-Regular.ttf");
+    src: url("../fonts/BebasNeue-Regular.ttf");
 }
 
 @font-face {
     font-family: "teko";
-    src: url("/fonts/Teko-VariableFont_wght.ttf");
+    src: url("../fonts/Teko-VariableFont_wght.ttf");
 }
 
 .grid-container{
@@ -36,6 +36,9 @@
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto;}
+    .tarjeta-producto{
+        background-color: white;
+    }
  
 }    
 
