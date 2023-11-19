@@ -1,0 +1,25 @@
+.tarjeta-producto{
+    color: white;
+    background-color:  rgba(146, 60, 139, 0.856);
+    padding: 15px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.img-producto{
+    max-width: 100%;
+    
+}
+.boton-compra{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2px;
+}
