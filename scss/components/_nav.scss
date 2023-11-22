@@ -1,16 +1,37 @@
-nav ul li{
-    list-style-type: none;
-    margin: 5px 10px 5px 10px;
-    display: inline-block;
-}
-nav{
+nav {
     margin-left: 0;
     margin-right: 0;
     text-align: center;
-} 
-.navbar-toggler{
+
+    ul {
+        li {
+            list-style-type: none;
+            margin: 5px 10px 5px 10px;
+            display: inline-block;
+
+        }
+    }
+}
+
+.navbar-toggler {
     background-color: white;
 }
-.nav-link{
+
+.nav-link {
     color: white !important;
+}
+.boton-home:hover{
+    background-color: red;
+}
+.boton-remeras:hover{
+    background-color: rgba(146, 60, 139, 0.856);
+}
+.boton-buzos:hover{
+    background-color: rgba(103, 212, 103, 0.89);
+}
+.boton-prints:hover{
+    background-color: rgba(2, 197, 197, 0.856);
+}
+.boton-contactanos:hover{
+    background-color: rgb(189, 189, 2);
 }

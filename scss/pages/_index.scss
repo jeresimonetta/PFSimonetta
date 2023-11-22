@@ -6,7 +6,9 @@
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
-        background-color: rgba(146, 60, 139, 0.856);
+    }
+    .grid-mobile-index{
+        background-color: red;
     }
     .grid-nav{
         display: grid;

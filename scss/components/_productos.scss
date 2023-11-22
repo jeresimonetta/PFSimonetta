@@ -1,6 +1,5 @@
 .tarjeta-producto{
     color: white;
-    background-color:  rgba(146, 60, 139, 0.856);
     padding: 15px;
     border: 5px;
     border-style: solid;
@@ -12,6 +11,15 @@
     align-items: center;
     justify-content: space-around;
     gap: 1rem;
+}
+.remeras{
+    background-color: rgba(146, 60, 139, 0.856);
+}
+.buzos{
+    background-color: rgba(103, 212, 103, 0.89);
+}
+.prints{
+    background-color: rgba(2, 197, 197, 0.856);
 }
 .img-producto{
     max-width: 100%;

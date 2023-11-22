@@ -15,7 +15,6 @@ a {
   text-decoration: none;
   color: white;
   font-family: "bebas";
-  padding: 1rem;
 }
 
 .grid-container {
@@ -61,31 +60,15 @@ nav ul li {
 }
 
 .navbar-toggler {
-  background-color: white;
+  background-color: rgb(44, 30, 30) 50, 84, 84;
 }
 
 .nav-link {
-  color: white !important;
+  color: rgb(163, 45, 45) !important;
 }
 
 .boton-home:hover {
-  background-color: red;
-}
-
-.boton-remeras:hover {
   background-color: rgba(146, 60, 139, 0.856);
-}
-
-.boton-buzos:hover {
-  background-color: rgba(103, 212, 103, 0.89);
-}
-
-.boton-prints:hover {
-  background-color: rgba(2, 197, 197, 0.856);
-}
-
-.boton-contactanos:hover {
-  background-color: rgb(189, 189, 2);
 }
 
 .grid-main {
@@ -133,6 +116,7 @@ main {
 
 .tarjeta-producto {
   color: white;
+  background-color: rgba(146, 60, 139, 0.856);
   padding: 15px;
   border: 5px;
   border-style: solid;
@@ -146,18 +130,6 @@ main {
   gap: 1rem;
 }
 
-.remeras {
-  background-color: rgba(146, 60, 139, 0.856);
-}
-
-.buzos {
-  background-color: rgba(103, 212, 103, 0.89);
-}
-
-.prints {
-  background-color: rgba(2, 197, 197, 0.856);
-}
-
 .img-producto {
   max-width: 100%;
 }
@@ -169,39 +141,6 @@ main {
   border-radius: 2px;
 }
 
-@media (max-width: 700px) {
-  .grid-mobile-remeras {
-    background-color: rgba(146, 60, 139, 0.856);
-  }
-}
-@media (max-width: 700px) {
-  .grid-mobile-buzos {
-    background-color: rgba(103, 212, 103, 0.89);
-  }
-}
-@media (max-width: 700px) {
-  .grid-mobile-prints {
-    background-color: rgba(2, 197, 197, 0.856);
-  }
-}
-@media (max-width: 700px) {
-  .grid-mobile-contactanos {
-    background-color: rgb(189, 189, 2);
-  }
-}
-input {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
-textarea {
-  margin-top: 0.5rem;
-}
-
-form {
-  padding-bottom: 1.5rem;
-}
-
 .grid-footer {
   grid-area: 3/1/4/4;
   display: inline-block;
@@ -211,14 +150,12 @@ form {
 
 footer {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
   background-color: black;
   font-family: "bebas";
-  font-size: 1.2rem;
-  padding-top: 1.5rem;
+  font-size: 1rem;
 }
 
 .bi {
@@ -232,8 +169,6 @@ footer {
 
 .red-foot {
   display: flex;
-  flex-direction: row;
-  padding: 1rem;
 }
 
 @media (max-width: 700px) {
@@ -244,9 +179,7 @@ footer {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
-  }
-  .grid-mobile-index {
-    background-color: red;
+    background-color: rgba(146, 60, 139, 0.856);
   }
   .grid-nav {
     display: grid;
