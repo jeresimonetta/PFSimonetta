@@ -189,7 +189,7 @@ main {
     background-color: rgb(189, 189, 2);
   }
 }
-input {
+.input {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
